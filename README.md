@@ -9,4 +9,4 @@
   <p>はじめてのGitHub Pagesです。</p>
 </body>
 </html>
-# gototo0510.github.io
+
