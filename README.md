@@ -9,4 +9,3 @@
   <p>はじめてのGitHub Pagesです。</p>
 </body>
 </html>
-
