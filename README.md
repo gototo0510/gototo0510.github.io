@@ -2,10 +2,10 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>gototo0510</title>
+  <title>GOTOTO</title>
 </head>
 <body>
-  <h1>gototo0510.github.io</h1>
-  <p>はじめてのGitHub Pagesです。</p>
+  <h1>GOTOTO</h1>
+  <p>音楽と記録のページです。</p>
 </body>
 </html>
