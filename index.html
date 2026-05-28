@@ -1,12 +1,71 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>後藤</title>
+  <title>GOTOTO Music Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 880px; margin: 40px auto; line-height: 1.6; padding: 0 20px; }
+    h1 { font-size: 32px; }
+    .card { border: 1px solid #ddd; border-radius: 14px; padding: 18px; margin: 18px 0; }
+    a { color: #111; font-weight: 700; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 6px; }
+  </style>
 </head>
 <body>
-  <h1>後藤</h1>
-  <p>音楽と記録のページです。</p>
-  <p><a href="https://x.com/GOTOTO0510">Xはこちら</a></p>
+  <h1>GOTOTO Music Tools</h1>
+  <p>
+    GOTOTO Music Tools is an internal content management tool for the GOTOTO music project.
+    It helps manage short-form original music videos for TikTok using TikTok Login Kit and the TikTok Content Posting API.
+  </p>
+
+  <p>
+    <a href="./terms.html">Terms of Service</a> |
+    <a href="./privacy.html">Privacy Policy</a>
+  </p>
+
+  <div class="card">
+    <h2>What this app does</h2>
+    <ul>
+      <li>Sign in with TikTok using OAuth.</li>
+      <li>Confirm the authenticated user's basic TikTok profile using <code>user.info.basic</code>.</li>
+      <li>Select a local MP4 video file.</li>
+      <li>Upload the MP4 to TikTok as a draft using <code>video.upload</code>.</li>
+      <li>Check the upload status and confirm <code>SEND_TO_USER_INBOX</code>.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Current review scope</h2>
+    <ul>
+      <li>Login Kit</li>
+      <li>Content Posting API</li>
+      <li><code>user.info.basic</code></li>
+      <li><code>video.upload</code></li>
+    </ul>
+    <p>
+      Direct publishing with <code>video.publish</code> is not enabled until TikTok approves Direct Post.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Demo flow</h2>
+    <ol>
+      <li>Open GOTOTO Scheduler.</li>
+      <li>Click “Sign in with TikTok”.</li>
+      <li>Complete TikTok OAuth authorization.</li>
+      <li>Return to the registered callback URL.</li>
+      <li>Check user.info.basic.</li>
+      <li>Select a local MP4 file.</li>
+      <li>Upload the MP4 as a TikTok draft.</li>
+      <li>Fetch status and confirm SEND_TO_USER_INBOX.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Project: GOTOTO</p>
+    <p>Website: https://gototo0510.github.io/</p>
+  </div>
 </body>
 </html>
